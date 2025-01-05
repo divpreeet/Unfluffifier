@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Article Summarizer",
+  "version": "1.0",
+  "description": "Summarizes articles using Groq API and displays them in reader mode",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}

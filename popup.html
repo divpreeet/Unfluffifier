@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: 'Inter', sans-serif;
+    }
+    h4{
+      font-weight: 400;}
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 10px;
+      background: #1e1c1e;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    button:hover {
+      background: #000;
+    }
+    #status {
+      margin-top: 10px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h3>Article Fluff Remover</h1>
+  <h4>you know those TLDR; moments, well this'll solve that</h2>
+  <button id="summarizeBtn">Remove the fluff</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
